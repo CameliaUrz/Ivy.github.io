@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My Interactive Page</title>
+</head>
+<body>
+
+  <h1>My Page</h1>
+  <p>This text is always visible on the page.</p>
+
+  <!-- THE BUTTON -->
+  <button id="toggleBtn" onclick="toggleBox()">[hide content]</button>
+  
+  <br><br>
+
+  <!-- THE HIDE/SHOW BOX -->
+  <div id="myContent">
+    <p>Everything inside this specific box will disappear or appear when you click the button!</p>
+    <p>You can delete this and put your own text or images here.</p>
+  </div>
+
+
+  <!-- THE SCRIPT (DO NOT EDIT THIS PART UNLESS YOU KNOW JS) -->
+  <script>
+  function toggleBox() {
+    const content = document.getElementById("myContent");
+    const btn = document.getElementById("toggleBtn");
+    
+    if (content.style.display === "none") {
+      content.style.display = "block"; 
+      btn.textContent = "[hide content]";
+    } else {
+      content.style.display = "none"; 
+      btn.textContent = "[show content]";
+    }
+  }
+  </script>
+
+</body>
+</html>
