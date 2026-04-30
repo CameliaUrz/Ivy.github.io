@@ -1,0 +1,537 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Pokemon Trainer Tables</title>
+</head>
+<body>
+
+  <!-- 1. BIRD KEEPER MIKE -->
+  <table border="1" style="width: 100%; border-collapse: collapse; margin-bottom: 30px;">
+    <thead>
+      <tr style="background-color: #f1f1f1; color: black;">
+        <th colspan="2" style="padding: 10px; text-align: left;">
+          <strong>VS: Bird Keeper Mike</strong><br>Field: No Field
+        </th>
+        <th style="text-align: right; padding-right: 10px;">
+          <button id="btn1" onclick="toggleTable('body1', 'btn1')">[hide]</button>
+        </th>
+      </tr>
+      <tr style="background-color: #111; color: white;">
+        <th style="padding: 10px; text-align: left;">Pokemon</th>
+        <th style="padding: 10px;"></th>
+        <th style="padding: 10px; text-align: left;">Moves</th>
+      </tr>
+    </thead>
+    <tbody id="body1">
+      <tr>
+        <td style="padding: 10px;">Pidgey (M) lvl 8</td>
+        <td></td>
+        <td style="padding: 10px;">- Gust<br>- Leer<br>- Tackle</td>
+      </tr>
+      <tr>
+        <td style="padding: 10px;">Wingull (M) lvl 8</td>
+        <td></td>
+        <td style="padding: 10px;">- Peck<br>- Gust<br>- water gun</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <!-- 2. YOUNGSTER BEN -->
+  <table border="1" style="width: 100%; border-collapse: collapse; margin-bottom: 30px;">
+    <thead>
+      <tr style="background-color: #f1f1f1; color: black;">
+        <th colspan="2" style="padding: 10px; text-align: left;">
+          <strong>VS: Youngster Ben</strong><br>Field: No Field
+        </th>
+        <th style="text-align: right; padding-right: 10px;">
+          <button id="btn2" onclick="toggleTable('body2', 'btn2')">[hide]</button>
+        </th>
+      </tr>
+      <tr style="background-color: #111; color: white;">
+        <th style="padding: 10px; text-align: left;">Pokemon</th>
+        <th style="padding: 10px;"></th>
+        <th style="padding: 10px; text-align: left;">Moves</th>
+      </tr>
+    </thead>
+    <tbody id="body2">
+      <tr>
+        <td style="padding: 10px;">Sentret (M) lvl 8</td>
+        <td></td>
+        <td style="padding: 10px;">- Quick attack<br>- Defense curl<br>- Scratch</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <!-- 3. BACKPACKER MOLLY -->
+  <table border="1" style="width: 100%; border-collapse: collapse; margin-bottom: 30px;">
+    <thead>
+      <tr style="background-color: #f1f1f1; color: black;">
+        <th colspan="2" style="padding: 10px; text-align: left;">
+          <strong>VS: Backpacker Molly</strong><br>Field: No Field
+        </th>
+        <th style="text-align: right; padding-right: 10px;">
+          <button id="btn3" onclick="toggleTable('body3', 'btn3')">[hide]</button>
+        </th>
+      </tr>
+      <tr style="background-color: #111; color: white;">
+        <th style="padding: 10px; text-align: left;">Pokemon</th>
+        <th style="padding: 10px;"></th>
+        <th style="padding: 10px; text-align: left;">Moves</th>
+      </tr>
+    </thead>
+    <tbody id="body3">
+      <tr>
+        <td style="padding: 10px;">Mankey (F) lvl 8</td>
+        <td></td>
+        <td style="padding: 10px;">- Double kick<br>- Quick attack</td>
+      </tr>
+      <tr>
+        <td style="padding: 10px;">Pancham (F) lvl 8</td>
+        <td></td>
+        <td style="padding: 10px;">- Arm thrust</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <!-- 4. BUG CATCHER BERTY -->
+  <table border="1" style="width: 100%; border-collapse: collapse; margin-bottom: 30px;">
+    <thead>
+      <tr style="background-color: #f1f1f1; color: black;">
+        <th colspan="2" style="padding: 10px; text-align: left;">
+          <strong>VS: Bug Cather Berty</strong><br>Field: No Field
+        </th>
+        <th style="text-align: right; padding-right: 10px;">
+          <button id="btn4" onclick="toggleTable('body4', 'btn4')">[hide]</button>
+        </th>
+      </tr>
+      <tr style="background-color: #111; color: white;">
+        <th style="padding: 10px; text-align: left;">Pokemon</th>
+        <th style="padding: 10px;"></th>
+        <th style="padding: 10px; text-align: left;">Moves</th>
+      </tr>
+    </thead>
+    <tbody id="body4">
+      <tr>
+        <td style="padding: 10px;">Metapod (M) lvl 7</td>
+        <td></td>
+        <td style="padding: 10px;">- Bug bite<br>- String shot</td>
+      </tr>
+      <tr>
+        <td style="padding: 10px;">Kakuna (F) lvl 8</td>
+        <td></td>
+        <td style="padding: 10px;">- Bug bite<br>- Poison sting</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <!-- 5. LADY EMMA -->
+  <table border="1" style="width: 100%; border-collapse: collapse; margin-bottom: 30px;">
+    <thead>
+      <tr style="background-color: #f1f1f1; color: black;">
+        <th colspan="2" style="padding: 10px; text-align: left;">
+          <strong>VS: Lady Emma</strong><br>Field: No Field
+        </th>
+        <th style="text-align: right; padding-right: 10px;">
+          <button id="btn5" onclick="toggleTable('body5', 'btn5')">[hide]</button>
+        </th>
+      </tr>
+      <tr style="background-color: #111; color: white;">
+        <th style="padding: 10px; text-align: left;">Pokemon</th>
+        <th style="padding: 10px;"></th>
+        <th style="padding: 10px; text-align: left;">Moves</th>
+      </tr>
+    </thead>
+    <tbody id="body5">
+      <tr>
+        <td style="padding: 10px;">Yamper (F) lvl 9</td>
+        <td></td>
+        <td style="padding: 10px;">- Nuzzle<br>- Quick attack</td>
+      </tr>
+      <tr>
+        <td style="padding: 10px;">Budew (F) lvl 9</td>
+        <td></td>
+        <td style="padding: 10px;">- Poison sting<br>- Growth</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <!-- 6. HIKER GEORGE -->
+  <table border="1" style="width: 100%; border-collapse: collapse; margin-bottom: 30px;">
+    <thead>
+      <tr style="background-color: #f1f1f1; color: black;">
+        <th colspan="2" style="padding: 10px; text-align: left;">
+          <strong>VS: Hiker George</strong><br>Field: No Field
+        </th>
+        <th style="text-align: right; padding-right: 10px;">
+          <button id="btn6" onclick="toggleTable('body6', 'btn6')">[hide]</button>
+        </th>
+      </tr>
+      <tr style="background-color: #111; color: white;">
+        <th style="padding: 10px; text-align: left;">Pokemon</th>
+        <th style="padding: 10px;"></th>
+        <th style="padding: 10px; text-align: left;">Moves</th>
+      </tr>
+    </thead>
+    <tbody id="body6">
+      <tr>
+        <td style="padding: 10px;">Geodude (M) lvl 8</td>
+        <td></td>
+        <td style="padding: 10px;">- Rock polish<br>- Rollout</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <!-- 7. AROMA LADY HANNAH -->
+  <table border="1" style="width: 100%; border-collapse: collapse; margin-bottom: 30px;">
+    <thead>
+      <tr style="background-color: #f1f1f1; color: black;">
+        <th colspan="2" style="padding: 10px; text-align: left;">
+          <strong>VS: Aroma Lady Hannah</strong><br>Field: No Field
+        </th>
+        <th style="text-align: right; padding-right: 10px;">
+          <button id="btn7" onclick="toggleTable('body7', 'btn7')">[hide]</button>
+        </th>
+      </tr>
+      <tr style="background-color: #111; color: white;">
+        <th style="padding: 10px; text-align: left;">Pokemon</th>
+        <th style="padding: 10px;"></th>
+        <th style="padding: 10px; text-align: left;">Moves</th>
+      </tr>
+    </thead>
+    <tbody id="body7">
+      <tr>
+        <td style="padding: 10px;">Sunkern (F) lvl 8</td>
+        <td></td>
+        <td style="padding: 10px;">- Razor leaf<br>- Leafage</td>
+      </tr>
+      <tr>
+        <td style="padding: 10px;">Flabebe (F) lvl 9</td>
+        <td></td>
+        <td style="padding: 10px;">- Charm<br>- Fairy wind</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <!-- 8. CATCHER NELSON -->
+  <table border="1" style="width: 100%; border-collapse: collapse; margin-bottom: 30px;">
+    <thead>
+      <tr style="background-color: #f1f1f1; color: black;">
+        <th colspan="2" style="padding: 10px; text-align: left;">
+          <strong>VS: Catcher Nelson</strong><br>Field: No Field
+        </th>
+        <th style="text-align: right; padding-right: 10px;">
+          <button id="btn8" onclick="toggleTable('body8', 'btn8')">[hide]</button>
+        </th>
+      </tr>
+      <tr style="background-color: #111; color: white;">
+        <th style="padding: 10px; text-align: left;">Pokemon</th>
+        <th style="padding: 10px;"></th>
+        <th style="padding: 10px; text-align: left;">Moves</th>
+      </tr>
+    </thead>
+    <tbody id="body8">
+      <tr>
+        <td style="padding: 10px;">Beedrill (M) lvl 10</td>
+        <td></td>
+        <td style="padding: 10px;">- Poison sting<br>- String shot</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <!-- 9. JOCELYN -->
+  <h2 style="text-align: center;">- Laboratory -</h2>
+  <table border="1" style="width: 100%; border-collapse: collapse; margin-bottom: 30px;">
+    <thead>
+      <tr style="background-color: #f1f1f1; color: black;">
+        <th colspan="2" style="padding: 10px; text-align: left;">
+          <strong>VS: Jocelyn</strong><br>Field: No Field
+        </th>
+        <th style="text-align: right; padding-right: 10px;">
+          <button id="btn9" onclick="toggleTable('body9', 'btn9')">[hide]</button>
+        </th>
+      </tr>
+      <tr style="background-color: #111; color: white;">
+        <th style="padding: 10px; text-align: left;">Pokemon</th>
+        <th style="padding: 10px;"></th>
+        <th style="padding: 10px; text-align: left;">Moves</th>
+      </tr>
+    </thead>
+    <tbody id="body9">
+      <tr>
+        <td style="padding: 10px;">Ralts (F) lvl 5</td>
+        <td></td>
+        <td style="padding: 10px;">- Growl<br>- Disarming voice</td>
+      </tr>
+      <tr>
+        <td style="padding: 10px;">Popplio (F) lvl 5</td>
+        <td></td>
+        <td style="padding: 10px;">- Pound<br>- Growl<br>- Water gun</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <!-- 10. BUG CATCHER LIAM -->
+  <table border="1" style="width: 100%; border-collapse: collapse; margin-bottom: 30px;">
+    <thead>
+      <tr style="background-color: #f1f1f1; color: black;">
+        <th colspan="2" style="padding: 10px; text-align: left;">
+          <strong>VS: Bug Catcher Liam</strong><br>Field: No Field
+        </th>
+        <th style="text-align: right; padding-right: 10px;">
+          <button id="btn10" onclick="toggleTable('body10', 'btn10')">[hide]</button>
+        </th>
+      </tr>
+      <tr style="background-color: #111; color: white;">
+        <th style="padding: 10px; text-align: left;">Pokemon</th>
+        <th style="padding: 10px;"></th>
+        <th style="padding: 10px; text-align: left;">Moves</th>
+      </tr>
+    </thead>
+    <tbody id="body10">
+      <tr>
+        <td style="padding: 10px;">Butterfree lvl 13 (F)</td>
+        <td></td>
+        <td style="padding: 10px;">- Struggle bug<br>- String shot<br>- Gust</td>
+      </tr>
+      <tr>
+        <td style="padding: 10px;">Surskit lvl 13 (M)</td>
+        <td></td>
+        <td style="padding: 10px;">- Aqua jet<br>- Bubble<br>- Quick attack</td>
+      </tr>
+      <tr>
+        <td style="padding: 10px;">Beedrill lvl 14 (M)</td>
+        <td></td>
+        <td style="padding: 10px;">- Poison sting<br>- String shot</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <!-- 11. BACKPACKER JOHN -->
+  <table border="1" style="width: 100%; border-collapse: collapse; margin-bottom: 30px;">
+    <thead>
+      <tr style="background-color: #f1f1f1; color: black;">
+        <th colspan="2" style="padding: 10px; text-align: left;">
+          <strong>VS: Backpacker John</strong><br>Field: No Field
+        </th>
+        <th style="text-align: right; padding-right: 10px;">
+          <button id="btn11" onclick="toggleTable('body11', 'btn11')">[hide]</button>
+        </th>
+      </tr>
+      <tr style="background-color: #111; color: white;">
+        <th style="padding: 10px; text-align: left;">Pokemon</th>
+        <th style="padding: 10px;"></th>
+        <th style="padding: 10px; text-align: left;">Moves</th>
+      </tr>
+    </thead>
+    <tbody id="body11">
+      <tr>
+        <td style="padding: 10px;">Geodude lvl 14 (M)</td>
+        <td></td>
+        <td style="padding: 10px;">- Protect<br>- Bulldoze</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <!-- 12. CAMPER IAN -->
+  <table border="1" style="width: 100%; border-collapse: collapse; margin-bottom: 30px;">
+    <thead>
+      <tr style="background-color: #f1f1f1; color: black;">
+        <th colspan="2" style="padding: 10px; text-align: left;">
+          <strong>VS: Camper Ian</strong><br>Field: No Field
+        </th>
+        <th style="text-align: right; padding-right: 10px;">
+          <button id="btn12" onclick="toggleTable('body12', 'btn12')">[hide]</button>
+        </th>
+      </tr>
+      <tr style="background-color: #111; color: white;">
+        <th style="padding: 10px; text-align: left;">Pokemon</th>
+        <th style="padding: 10px;"></th>
+        <th style="padding: 10px; text-align: left;">Moves</th>
+      </tr>
+    </thead>
+    <tbody id="body12">
+      <tr>
+        <td style="padding: 10px;">Sewaddle lvl 14 (M)</td>
+        <td></td>
+        <td style="padding: 10px;">- Bug buzz<br>- Bug bite</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <!-- 13. MAID PEARL -->
+  <table border="1" style="width: 100%; border-collapse: collapse; margin-bottom: 30px;">
+    <thead>
+      <tr style="background-color: #f1f1f1; color: black;">
+        <th colspan="2" style="padding: 10px; text-align: left;">
+          <strong>VS: Maid Pearl</strong><br>Field: No Field
+        </th>
+        <th style="text-align: right; padding-right: 10px;">
+          <button id="btn13" onclick="toggleTable('body13', 'btn13')">[hide]</button>
+        </th>
+      </tr>
+      <tr style="background-color: #111; color: white;">
+        <th style="padding: 10px; text-align: left;">Pokemon</th>
+        <th style="padding: 10px;"></th>
+        <th style="padding: 10px; text-align: left;">Moves</th>
+      </tr>
+    </thead>
+    <tbody id="body13">
+      <tr>
+        <td style="padding: 10px;">Hoothoot lvl 14 (F)</td>
+        <td></td>
+        <td style="padding: 10px;">- Echoed voice<br>- Tackle</td>
+      </tr>
+      <tr>
+        <td style="padding: 10px;">Tadbulb lvl 15 (F)</td>
+        <td></td>
+        <td style="padding: 10px;">- Spark<br>- Mud slap<br>- Thunder shock</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <!-- 14. LASS JULIE -->
+  <table border="1" style="width: 100%; border-collapse: collapse; margin-bottom: 30px;">
+    <thead>
+      <tr style="background-color: #f1f1f1; color: black;">
+        <th colspan="2" style="padding: 10px; text-align: left;">
+          <strong>VS: Lass Julie</strong><br>Field: No Field
+        </th>
+        <th style="text-align: right; padding-right: 10px;">
+          <button id="btn14" onclick="toggleTable('body14', 'btn14')">[hide]</button>
+        </th>
+      </tr>
+      <tr style="background-color: #111; color: white;">
+        <th style="padding: 10px; text-align: left;">Pokemon</th>
+        <th style="padding: 10px;"></th>
+        <th style="padding: 10px; text-align: left;">Moves</th>
+      </tr>
+    </thead>
+    <tbody id="body14">
+      <tr>
+        <td style="padding: 10px;">Lilipup lvl 15 (F)</td>
+        <td></td>
+        <td style="padding: 10px;">- Work up<br>- Quick attack<br>- Growl</td>
+      </tr>
+      <tr>
+        <td style="padding: 10px;">Tynamo lvl 15 (F)</td>
+        <td></td>
+        <td style="padding: 10px;">- Magnet rise<br>- Spark<br>- Charge beam</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <!-- 15. SCIENTIST QUEEN -->
+  <table border="1" style="width: 100%; border-collapse: collapse; margin-bottom: 30px;">
+    <thead>
+      <tr style="background-color: #f1f1f1; color: black;">
+        <th colspan="2" style="padding: 10px; text-align: left;">
+          <strong>VS: Scientist Queen</strong><br>Field: No Field
+        </th>
+        <th style="text-align: right; padding-right: 10px;">
+          <button id="btn15" onclick="toggleTable('body15', 'btn15')">[hide]</button>
+        </th>
+      </tr>
+      <tr style="background-color: #111; color: white;">
+        <th style="padding: 10px; text-align: left;">Pokemon</th>
+        <th style="padding: 10px;"></th>
+        <th style="padding: 10px; text-align: left;">Moves</th>
+      </tr>
+    </thead>
+    <tbody id="body15">
+      <tr>
+        <td style="padding: 10px;">Shinx lvl 14 (F)</td>
+        <td></td>
+        <td style="padding: 10px;">- Spark<br>- Charge<br>- Growl</td>
+      </tr>
+      <tr>
+        <td style="padding: 10px;">Cottonee lvl 14 (F)</td>
+        <td></td>
+        <td style="padding: 10px;">- Leech seed<br>- Tackle<br>- Fairy wind<br>- Stun spore</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <!-- 16. AROMA LADY ALI -->
+  <table border="1" style="width: 100%; border-collapse: collapse; margin-bottom: 30px;">
+    <thead>
+      <tr style="background-color: #f1f1f1; color: black;">
+        <th colspan="2" style="padding: 10px; text-align: left;">
+          <strong>VS: Aroma Lady Ali</strong><br>Field: No Field
+        </th>
+        <th style="text-align: right; padding-right: 10px;">
+          <button id="btn16" onclick="toggleTable('body16', 'btn16')">[hide]</button>
+        </th>
+      </tr>
+      <tr style="background-color: #111; color: white;">
+        <th style="padding: 10px; text-align: left;">Pokemon</th>
+        <th style="padding: 10px;"></th>
+        <th style="padding: 10px; text-align: left;">Moves</th>
+      </tr>
+    </thead>
+    <tbody id="body16">
+      <tr>
+        <td style="padding: 10px;">Stufful lvl 15 (F)</td>
+        <td></td>
+        <td style="padding: 10px;">- Baby-doll eyes<br>- Ice punch<br>- Leer</td>
+      </tr>
+      <tr>
+        <td style="padding: 10px;">Shroomish lvl 15 (F)</td>
+        <td></td>
+        <td style="padding: 10px;">- Seed bomb<br>- Tackle<br>- Stun spore</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <!-- 17. BACKPACKER AVERY -->
+  <table border="1" style="width: 100%; border-collapse: collapse; margin-bottom: 30px;">
+    <thead>
+      <tr style="background-color: #f1f1f1; color: black;">
+        <th colspan="2" style="padding: 10px; text-align: left;">
+          <strong>VS: Backpacker Avery</strong><br>Field: No Field
+        </th>
+        <th style="text-align: right; padding-right: 10px;">
+          <button id="btn17" onclick="toggleTable('body17', 'btn17')">[hide]</button>
+        </th>
+      </tr>
+      <tr style="background-color: #111; color: white;">
+        <th style="padding: 10px; text-align: left;">Pokemon</th>
+        <th style="padding: 10px;"></th>
+        <th style="padding: 10px; text-align: left;">Moves</th>
+      </tr>
+    </thead>
+    <tbody id="body17">
+      <tr>
+        <td style="padding: 10px;">Skorupi lvl 14 (F)</td>
+        <td></td>
+        <td style="padding: 10px;">- Poison sting<br>- Bite<br>- Pin missile<br>- Toxic spikes</td>
+      </tr>
+      <tr>
+        <td style="padding: 10px;">Fuecoco lvl 14 (M)</td>
+        <td></td>
+        <td style="padding: 10px;">- Bite<br>- Ember<br>- Tackle</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <!-- 18. HIKER ROCKY -->
+  <table border="1" style="width: 100%; border-collapse: collapse; margin-bottom: 30px;">
+    <thead>
+      <tr style="background-color: #f1f1f1; color: black;">
+        <th colspan="2" style="padding: 10px; text-align: left;">
+          <strong>VS: Hiker Rocky</strong><br>Field: No Field
+        </th>
+        <th style="text-align: right; padding-right: 10px;">
+          <button id="btn18" onclick="toggleTable('body18', 'btn18')">[hide]</button>
+        </th>
+      </tr>
+      <tr style="background-color: #111; color: white;">
+        <th style="padding: 10px; text-align: left;">Pokemon</th>
+        <th style="padding: 10px;"></th>
+        <th style="padding: 10px; text-align: left;">Moves</th>
+      </tr>
+    </thead>
+    <tbody id="body18">
+      <tr>
+        <td style="padding: 10px;">Rockruff lvl 13 (M)</td>
+        <td></td>
+        <td style="padding: 10px;">- Rock throw<br>- Fire fan
